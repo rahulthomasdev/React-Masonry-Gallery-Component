@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.title {
+  font-size: 3rem; 
+  font-weight: 700; 
+  text-align: center; 
+  color: #2c3e50; 
+  margin-bottom: 10px; 
+  letter-spacing: 2px; 
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #6dd5ed, #2193b0);
+  -webkit-background-clip: text;
+  color: transparent; 
+}
+
+.subtitle {
+  font-size: 1.25rem; 
+  font-weight: 300; 
+  text-align: center; 
+  color: #34495e;
+  margin-top: 0;
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
